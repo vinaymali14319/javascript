@@ -1,5 +1,9 @@
 
 /*
+
+Q1
+
+
 const prompt = require("prompt-sync")()
 
 let arr = [1,5,9,76,3,1,5,616]
@@ -13,6 +17,12 @@ arr.push(c)
 console.log(arr)
 
 */
+
+/*
+
+Q2
+
+
 const prompt = require("prompt-sync")()
 
 let arr = [4,5,6,9,7,2,3,1,8,6]
@@ -30,3 +40,16 @@ do{
 }while (a!= 0)
 arr.pop()
 console.log(arr)
+*/
+
+// Q3
+
+let arr = [1,5,9,7,4,6,3,8,4,6]
+
+let n = arr.filter((x)=>{
+
+
+    return x%2==0
+})
+
+console.log(n)
