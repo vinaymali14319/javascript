@@ -1,5 +1,5 @@
 
-
+/*
 const prompt = require("prompt-sync")()
 
 let arr = [1,5,9,76,3,1,5,616]
@@ -12,5 +12,21 @@ arr.push(c)
 
 console.log(arr)
 
+*/
+const prompt = require("prompt-sync")()
+
+let arr = [4,5,6,9,7,2,3,1,8,6]
+let a;
+do{
+     a = prompt("Enter number")
+     a= Number.parseInt(a)
+
+     arr.push(a)
+
+     
 
 
+
+}while (a!= 0)
+arr.pop()
+console.log(arr)
