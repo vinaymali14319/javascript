@@ -41,7 +41,7 @@ do{
 arr.pop()
 console.log(arr)
 */
-
+/*
 // Q3
 
 let arr = [1,5,9,7,4,6,3,8,4,6]
@@ -53,3 +53,17 @@ let n = arr.filter((x)=>{
 })
 
 console.log(n)
+
+*/
+let arr = [1,5,9,7,4,6,3,8,4,6]
+
+let n = arr.map((x)=>{
+
+
+    return x*2
+})
+
+console.log(n)
+
+// 2, 10, 18, 14,  8, 12,  6, 16,  8, 12
+
